@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px 0px;
+    
+}
+
+header a {
+    color: white;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-logo {
+    font-weight: 800;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.pre-content {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 90px 90px;
+}
+
+
+
+.pre-content-left-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.pre-content-left-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-right: 30px;
+}
+
+.pre-content-right img{
+    width: 400px;
+    height: 200px;
+}
+
+.pre-content button {
+    background-color: #3882f6;
+    font-weight: 700;
+    color: white;
+    margin-top: 6px;
+    padding: 4px 20px;
+    border-radius: 7px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 42px;
+    flex: auto;
+    gap: 30px;   
+    justify-content: center;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    border-radius: 9px;
+    border: 3px solid #3882f6;
+}
+
+.content-img{
+    display: flex;
+    gap: 30px;
+}
+
+.figure-container {
+    display: flex;
+    text-align: center;
+    width: 200px;
+    justify-content: center;
+}
+
+.content figcaption {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.text-motivation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 200px;
+    flex: auto;
+    background-color: #e5e7eb;
+}
+
+.text-motivation h3{
+    font-weight: 300;
+}
+
+.text-motivation .reference {
+    font-weight: 500;
+    align-self: flex-end;
+}
+
+
+.cta-container {
+    display: flex;
+    width: 100%;
+    padding: 80px;
+    justify-content: center;
+    align-self: center;
+    flex: auto;
+}
+
+.cta-container .button-div {
+    align-self: center;
+    border: 1px solid white;
+    flex-shrink: 0;
+}
+
+.cta-container button {
+    background-color: transparent;
+    color: white;
+    padding: 3px 15px;
+}
+
+.cta-container .cta-text {
+    align-self: center;
+}
+
+.cta-box {
+    display: flex;
+    flex-basis: 80%;
+    background-color: #3882f6;
+    color: white;
+    padding: 15px 30px;
+    justify-content: space-around;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+    
+}
+
+.cta-text-title {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    bottom: 0;
+    width: 100%;
+    height: 45px;  
+    color: white;
+}
